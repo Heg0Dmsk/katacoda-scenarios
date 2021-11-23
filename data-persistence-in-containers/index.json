@@ -7,8 +7,6 @@
     "steps": [
       {
         "title": "Why data matters",
-        "courseData": "setup.sh",
-        "code": "foreground.sh",
         "text": "step1.md"
       },
       {
