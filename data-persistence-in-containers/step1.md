@@ -1,5 +1,3 @@
-# Why data matters
-
 Data is .....
 
 >Data is the new gold
