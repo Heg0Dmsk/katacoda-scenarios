@@ -28,7 +28,7 @@
       },
       {
         "title": "Docker - include data in docker images",
-        "text": "docker-include-data-in-images.mdd"
+        "text": "docker-include-data-in-images.md"
       },
       {
         "title": "Persisting data inside Kubernetes pods",
