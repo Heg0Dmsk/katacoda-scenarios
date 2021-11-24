@@ -36,7 +36,8 @@
       },
       {
         "title": "K8S - Deploying PostgreSQL using a persistent volume (claim)",
-        "text": "k8s-pvc.md"
+        "text": "k8s-pvc.md",
+        "courseData": "install-psql.sh"
       },
       {
         "title": "K8S - Testing PostgreSQL",
