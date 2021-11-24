@@ -6,6 +6,9 @@
 # Installing kubectl to get access to the K8S cluster
 snap install kubectl --classic
 
+# Install helm - needed to easily deploy postgres in Kubernetes
+snap install helm --classic
+
 # Getting the K3D (K3S (Kubernetes Distribution) in Docker) command line
 curl -s https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash
 
@@ -15,4 +18,3 @@ k3d cluster create katacoda
 # Getting the cluster’s kubeconfig (included in k3d cluster create)
 k3d kubeconfig merge katacoda --kubeconfig-switch-context
 
-snap install helm --classic

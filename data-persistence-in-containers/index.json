@@ -7,44 +7,49 @@
     "steps": [
       {
         "title": "Why data matters",
-        "text": "step1.md",
+        "text": "why-data-matters.md",
         "courseData": "k8s-setup.sh"
       },
       {
         "title": "Data inside Containers",
-        "text": "step2.md"
+        "text": "data-inside-containers.md"
       },
       {
         "title": "Persisting data inside Docker containers",
-        "text": "step3.md"
+        "text": "persisting-data-inside-docker.md"
       },
       {
         "title": "Docker - named volumes",
-        "text": "step4.md"
+        "text": "docker-named-volumes.md"
       },
       {
         "title": "Docker - bind mounts",
-        "text": "step5.md"
+        "text": "docker-bind-mounts.md"
       },
       {
         "title": "Docker - include data in docker images",
-        "text": "step6.md"
+        "text": "docker-include-data-in-images.mdd"
       },
       {
         "title": "Persisting data inside Kubernetes pods",
-        "text": "step7.md"
+        "text": "persisting-data-inside-k8s.md"
       },
       {
-        "title": "K8S - Persistent Volume Claim",
-        "text": "step8.md"
+        "title": "K8S - Deploying PostgreSQL using a persistent volume (claim)",
+        "text": "k8s-pvc.md"
+      },
+      {
+        "title": "K8S - Testing PostgreSQL",
+        "text": "k8s-testing-postgres.md",
+        "courseData": "port-forward-postgres-service.sh"
       },
       {
         "title": "Summary",
-        "text": "step9.md"
+        "text": "summary.md"
       },
       {
         "title": "Sources",
-        "text": "step10.md"
+        "text": "sources.md"
       }
     ],
     "intro": {
