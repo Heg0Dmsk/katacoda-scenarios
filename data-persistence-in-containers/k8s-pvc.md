@@ -1,5 +1,3 @@
-# K8S - Deploying Postgres using a persisten volume (claime) Persistent Volume Claim
-
 In the following we will delplyo PostgreSQl to Kubernetes using a persistent volumen claim as the storage provider.
 
 ## Persistent volume
