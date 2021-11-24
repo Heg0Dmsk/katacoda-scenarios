@@ -1,1 +1,3 @@
-This still is a test
+Explain that data is emphemeral
+
+Explain that it differs from technology to technology

@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "Why data matters",
-        "text": "step1.md"
+        "text": "step1.md",
+        "courseData": "k8s-setup.sh"
       },
       {
         "title": "Data inside Containers",
