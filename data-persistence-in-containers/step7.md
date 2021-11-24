@@ -1,9 +1,6 @@
-# Persisting data inside Kubernetes pods
+Kubernetes offers a lot of different volumes. The documentation list over 20 different kinds of volumes which can be used for storing data with Kubernetes. Examples for Kubernetes volumes include:
 
-## (heading to be deleted)> Data is the new gold
+[https://kubernetes.io/docs/concepts/storage/volumes/]
 
-Kubernets offers a lot of different 
+&nbsp;
 
-https://kubernetes.io/docs/concepts/storage/volumes/#iscsi
-
-This still is a test 

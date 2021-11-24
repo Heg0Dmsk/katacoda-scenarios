@@ -14,3 +14,5 @@ k3d cluster create katacoda
 
 # Getting the cluster’s kubeconfig (included in k3d cluster create)
 k3d kubeconfig merge katacoda --kubeconfig-switch-context
+
+snap install helm --classic

@@ -1,5 +1,3 @@
-# Why data matters
-
 ![Data is the new gold](https://www.ceotodaymagazine.com/CEO-Today/wp-content/uploads/2018/04/Is-Data-the-New-Gold-1.jpg "Data is the new gold")
 Figure 1: Data is the new gold
 

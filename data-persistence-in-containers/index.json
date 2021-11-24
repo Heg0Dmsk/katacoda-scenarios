@@ -54,7 +54,7 @@
       "text": "finish.md"
     }
   },
-  "files": ["docker.yml", "volume-claim"],
+  "files": ["persistent-volume.yml", "persistent-volume-claim.yml"],
   "environment": {
     "showide": true,
     "uilayout": "vscode-terminal-split"
