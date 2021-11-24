@@ -1,10 +1,16 @@
+[![](http://shields.katacoda.com/katacoda/heg0dmsk/count.svg?style=for-the-badge)](https://www.katacoda.com/heg0dmsk)
+
 # Interactive Katacoda Scenarios
 
-[![](http://shields.katacoda.com/katacoda/heg0dmsk/count.svg)](https://www.katacoda.com/heg0dmsk "Get your profile on Katacoda.com")
+## Katacoda Profile
 
 Visit https://www.katacoda.com/heg0dmsk to view the profile and interactive scenarios
 
-### Writing Scenarios
-Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
+## Scenarios
 
-For examples, visit https://github.com/katacoda/scenario-example
+### [Persisting Data inside Containers](https://www.katacoda.com/heg0dmsk/scenarios/data-persistence-in-containers)
+
+- university project for the datawarehouse course
+- Data inside containers is ephemeral. Therefore it is crucial to pesist the data in order to prevent data loss. This Katacoda shows a few examples on how to do so. The examples include
+  - Docker
+  - Kubernetes (K8S)

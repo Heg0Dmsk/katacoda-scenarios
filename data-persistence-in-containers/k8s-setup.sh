@@ -11,3 +11,6 @@ curl -s https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash
 
 # Creating the K8S single node cluster
 k3d cluster create katacoda
+
+# Getting the cluster’s kubeconfig (included in k3d cluster create)
+k3d kubeconfig merge katacoda --kubeconfig-switch-context

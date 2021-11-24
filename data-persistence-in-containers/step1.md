@@ -1,4 +1,6 @@
-> Data is the new gold
+# Why data matters
+
+## (heading to be deleted)> Data is the new gold
 
 Source: [Open Data Initiative, European Commission]
 
