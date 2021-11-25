@@ -15,8 +15,8 @@
         "text": "data-inside-containers.md"
       },
       {
-        "title": "Persisting data inside Docker containers",
-        "text": "persisting-data-inside-docker.md"
+        "title": "Docker - Persisting data",
+        "text": "docker-persisting-data.md"
       },
       {
         "title": "Docker - named volumes",
@@ -31,8 +31,8 @@
         "text": "docker-include-data-in-images.md"
       },
       {
-        "title": "Persisting data inside Kubernetes pods",
-        "text": "persisting-data-inside-k8s.md"
+        "title": "K8S - Pesisting data",
+        "text": "k8s-persisting-data.md"
       },
       {
         "title": "K8S - Deploying PostgreSQL using a persistent volume (claim)",
