@@ -2,7 +2,7 @@ In the following we will delplyo PostgreSQl to Kubernetes using a persistent vol
 
 ## Persistent volume
 
-In a first step we will create a persistent volume which uses the storage of the Kubernetes host. This ressource is needed to provide persistent storage for the persistent volume claim that we will create later
+In a first step we will create a persistent volume which uses the storage of the Kubernetes host. This resource is needed to provide persistent storage for the persistent volume claim that we will create later
 
 <pre class="file" data-filename="persistent-volume.yml" data-target="replace">
 ---
@@ -22,7 +22,7 @@ spec:
     path: "/mnt/data"
 </pre>
 
-After copying the ressource definition to the editor, we need to apply the file to create the Kubernetes ressource.
+After copying the resource definition to the editor, we need to apply the file to create the Kubernetes resource.
 
 `kubectl apply -f persistent-volume.yml`{{execute}}
 
@@ -47,7 +47,7 @@ spec:
       storage: 100M
 </pre>
 
-Like before, we need to copy the Kubernetes ressource to the editor and apply it using the command line.
+Like before, we need to copy the Kubernetes resource to the editor and apply it using the command line.
 
 `kubectl apply -f persistent-volume-claim.yml`{{execute}}
 
@@ -57,7 +57,7 @@ Like before, we need to copy the Kubernetes ressource to the editor and apply it
 
 ## Deploying PostgreSQL using helm
 
-To simplyfy the installation proccess, we will use a predefined helm charts to create the remaining Kubernetes ressources (e.g. stateful set, service) for this exercise.
+To simplify the installation process, we will use a predefined helm charts to create the remaining Kubernetes resources (e.g. stateful set, service) for this exercise.
 
 1. We add the required helm chart
   `helm repo add bitnami https://charts.bitnami.com/bitnami`{{execute}}

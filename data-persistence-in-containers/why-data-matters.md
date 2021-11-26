@@ -6,7 +6,7 @@ Source: https://www.ceotodaymagazine.com/2018/04/is-data-the-new-gold/
 
 &nbsp;
 
-With the progress of digitalization and the increase of digital devices like Internet of things (IoT) and other devices, more and more data can be collected. This data offers a huge potential for all diferent kind of companies to profit off by analysing this data. Overall, the importance of data has been growing over the past few years. Nowadays it has has became an invaluable asset. Here are few quotes to support this trend.
+With the progress of digitalization and the increase of digital devices like Internet of things (IoT) and other devices, more and more data can be collected. This data offers a huge potential for all different kind of companies to profit off by analyzing this data. Overall, the importance of data has been growing over the past few years. Nowadays it has has became an invaluable asset. Here are few quotes to support this trend.
 
 &nbsp;
 

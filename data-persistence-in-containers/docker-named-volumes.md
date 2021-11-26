@@ -36,7 +36,7 @@ To be able to verify the persistent storage later, we now create a test file ins
 
 `cd ../var/lib/postgresql/data`{{execute}}
 
-Then we create the test file, check if it has been successfuly created and exit the container.
+Then we create the test file, check if it has been successfully created and exit the container.
 
 `touch persistent.txt`{{execute}}
 

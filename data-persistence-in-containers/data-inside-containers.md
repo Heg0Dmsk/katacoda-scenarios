@@ -12,5 +12,4 @@ Source: (Docker Deep Dive, 183)
 
 &nbsp;
 
-
-As shown in figure 2, additionally to the read-only image layers, container technology like Docker often a single writable layer. Most of the times it ist tightly coupled to the lifecycle of the container and gets deleted together with the container. Persistent data has the property of not being tied to the lifecycle of a container. Furthermore, this allows for data to be shared between mutliple conatiners (Docker Deep Dive, 183-184)
+As shown in figure 2, additionally to the read-only image layers, container technology like Docker often a single writable layer. Most of the times it ist tightly coupled to the lifecycle of the container and gets deleted together with the container. Persistent data has the property of not being tied to the lifecycle of a container. Furthermore, this allows for data to be shared between multiple containers (Docker Deep Dive, 183-184)
