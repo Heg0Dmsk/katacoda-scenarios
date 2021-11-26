@@ -16,7 +16,7 @@ Additionally, we can inspect a specific volume using the following command:
 
 `docker volume inspect katacoda`{{execute}}
 
-# Mounting Docker volumes inside a container
+## Mounting Docker volumes inside a container
 
 To use the previously created docker volume, we must specify it as a parameter when creating a new container. The next command creates a postgres container that uses the volume as the database storage by mounting the volume into the data directory of the postgres container.
 
@@ -52,7 +52,7 @@ To verify this, we can get a list of all docker volumes by executing the next co
 
 `docker volume ls`{{execute}}
 
-# Verify that the data is persistent
+## Verify that the data is persistent
 
 To verify that we successfully have persisted the test data from the previous step, we first will stop and remove the container
 

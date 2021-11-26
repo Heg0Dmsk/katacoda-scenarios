@@ -3,7 +3,7 @@
 #################################
 
 # Pulling postgres docker image to avoid wait times later
-dockerpull postgres:14.1-alpine
+docker pull postgres:14.1-alpine
 
 # Updating, needed to install psql
 apt-get update
