@@ -5,12 +5,6 @@
 # Pulling postgres docker image to avoid wait times later
 docker pull postgres:14.1-alpine
 
-# Updating, needed to install psql
-apt-get update
-
-# Install psql
-sudo apt install postgresql-client
-
 # Installing kubectl to get access to the K8S cluster
 snap install kubectl --classic
 
