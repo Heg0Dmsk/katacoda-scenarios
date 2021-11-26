@@ -20,7 +20,11 @@ Additionally, we can inspect a specific volume using the following command:
 
 To use the previously created docker volume, we must specify it as a parameter when creating a new container. The next command creates a postgres container that uses the volume as the database storage by mounting the volume into the data directory of the postgres container.
 
-`docker run -it --name existing-volume -v katacoda:/var/lib/postgresql/data postgres:14.1-alpine`{{execute}}
+`docker run -d --name existing-volume -v katacoda:/var/lib/postgresql/data -e POSTGRES_DB=db -e POSTGRES_PASSWORD=password postgres:14.1-alpine`{{execute}}
+
+Afterwards we can get shell access with this command:
+
+`docker exec -it existing-volume bash`{{execute}}
 
 Now we will create some test data in the default directory, to show that it is not persistent due to the volume only being mounted to `var/lib/postgresql/data`. Only data inside this folder and subfolders will be persisted.
 
@@ -56,9 +60,11 @@ To verify that we successfully have persisted the test data from the previous st
 
 ... and start it again 
 
-`docker run -it --name existing-volume -v katacoda:/var/lib/postgresql/data postgres:14.1-alpine`{{execute}}
+`docker run -d --name existing-volume -v katacoda:/var/lib/postgresql/data -e POSTGRES_DB=db -e POSTGRES_PASSWORD=password postgres:14.1-alpine`{{execute}}
 
-Now we are able to verify that data in the default directory is non-persistent due to the used mount path by executing the following command:
+Now we are able to verify that data in the default directory is non-persistent due to the used mount path by executing the following commands:
+
+`docker exec -it existing-volume bash`{{execute}}
 
 `ls`{{execute}}
 
