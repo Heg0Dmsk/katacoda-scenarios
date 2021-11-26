@@ -15,15 +15,15 @@
         "text": "data-inside-containers.md"
       },
       {
-        "title": "Docker - Persisting data",
+        "title": "Persisting data inside Docker",
         "text": "docker-persisting-data.md"
       },
       {
-        "title": "Docker - named volumes",
+        "title": "Docker volumes",
         "text": "docker-named-volumes.md"
       },
       {
-        "title": "Docker - bind mounts",
+        "title": "Docker bind mounts",
         "text": "docker-bind-mounts.md"
       },
       {
