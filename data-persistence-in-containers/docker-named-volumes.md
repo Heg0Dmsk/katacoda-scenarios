@@ -75,3 +75,5 @@ After we have verified this, we can check if the other test file has been succes
 `ls`{{execute}}
 
 After the successful verification we can exit the container and move on to the next slide to take a look at Docker bind mounts.
+
+`exit`{{execute}}
