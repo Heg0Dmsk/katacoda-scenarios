@@ -17,8 +17,11 @@ Source: [2]
 &nbsp;
 
 > Data as Asset, getting more and more important across all industries
+> 
 > • Not only classical data-intensive companies like Google or Facebook
+> 
 > • Increasing interest e.g. in insurance, health care, automotive, …
+> 
 > • Connected cars, Smart Home, Tailor-made insurances, etc
 
 Source: [3, pp. 18]
