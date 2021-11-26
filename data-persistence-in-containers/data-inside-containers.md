@@ -12,6 +12,7 @@ Figure 2: Data is the new gold
 
 Source: (Docker Deep Dive, 183)
 
+![Katacoda Logo](./assets/ephemeral-container-storage.png)
 &nbsp;
 
 
