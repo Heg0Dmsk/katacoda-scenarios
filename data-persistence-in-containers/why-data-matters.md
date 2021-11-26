@@ -2,7 +2,7 @@
 
 Figure 1: Data is the new gold
 
-Source: https://www.ceotodaymagazine.com/2018/04/is-data-the-new-gold/
+Source: [1]
 
 &nbsp;
 
@@ -12,16 +12,7 @@ With the progress of digitalization and the increase of digital devices like Int
 
 > Data is the new gold
 
-Source: [Open Data Initiative, European Commission]
-
-&nbsp;
-
-> The data, however, lives forever.
-> It is not about building applications;
-> it really is about the data
-> underneath these applications
-
-Source: (Tom Kyte, Oracle)
+Source: [2]
 
 &nbsp;
 
@@ -30,4 +21,4 @@ Source: (Tom Kyte, Oracle)
 > • Increasing interest e.g. in insurance, health care, automotive, …
 > • Connected cars, Smart Home, Tailor-made insurances, etc
 
-Source: (Lecture @DHBW: Data Warehouse, 01 Introduction & Motivation, Andreas Buckenhofer, Seite 18)
+Source: [3, pp. 18]

@@ -1,4 +1,4 @@
-As alternative to volumes, Docker offers the option to used bind mounts. Contrary to Docker volumes they are not managed by Docker and that's whys the cannot be controlled by Docker. They can be located anywhere on the host's file system (k8s + docker enterprise guide, 36)
+As an alternative to volumes, Docker offers the option to used bind mounts. Contrary to Docker volumes they are not managed by Docker and that's whys the cannot be controlled by Docker. They can be located anywhere on the host's file system [5, pp. 36].
 
 ## Using a bind mount as storage for a container
 

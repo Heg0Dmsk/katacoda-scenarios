@@ -1,4 +1,4 @@
-One option of storing data with Docker are Docker volumes. They are tightly integrated into Docker and can be accessed using their own API (Docker Deep Dive, 184). In the following we will see how to create, inspect volumes and mount them inside a Docker container. (Docker Deep Dive 184)
+One option of storing data with Docker are Docker volumes. They are tightly integrated into Docker and can be accessed using their own API [4, pp. 184]. In the following we will see how to create, inspect volumes and mount them inside a Docker container.
 
 ## Creating docker volumes
 
