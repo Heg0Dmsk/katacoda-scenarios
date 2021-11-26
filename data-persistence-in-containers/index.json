@@ -8,7 +8,7 @@
       {
         "title": "Why data matters",
         "text": "why-data-matters.md",
-        "courseData": "k8s-setup.sh"
+        "courseData": "setup.sh"
       },
       {
         "title": "Data inside Containers",
@@ -27,17 +27,12 @@
         "text": "docker-bind-mounts.md"
       },
       {
-        "title": "Docker - include data in docker images",
-        "text": "docker-include-data-in-images.md"
-      },
-      {
         "title": "K8S - Pesisting data",
         "text": "k8s-persisting-data.md"
       },
       {
         "title": "K8S - Deploying PostgreSQL using a persistent volume (claim)",
-        "text": "k8s-pvc.md",
-        "courseData": "install-psql.sh"
+        "text": "k8s-pvc.md"
       },
       {
         "title": "K8S - Testing PostgreSQL",
@@ -62,7 +57,6 @@
   },
   "files": ["persistent-volume.yml", "persistent-volume-claim.yml"],
   "environment": {
-    "showide": true,
     "uilayout": "vscode-terminal-split"
   },
   "backend": {

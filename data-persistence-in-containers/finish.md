@@ -8,7 +8,6 @@
 - Docker
   - bind mounts
   - named volumes
-  - include in docker images
 - Kubernetes
   - over 20 different types of volumes
   - e.g. persistentVolumeClaim

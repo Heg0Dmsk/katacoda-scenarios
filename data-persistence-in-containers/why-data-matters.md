@@ -1,4 +1,5 @@
-![Data is the new gold](https://www.ceotodaymagazine.com/CEO-Today/wp-content/uploads/2018/04/Is-Data-the-New-Gold-1.jpg "Data is the new gold")
+![Ephemeral container storage](./assets/data-is-the-new-gold.jpg)
+
 Figure 1: Data is the new gold
 
 Source: https://www.ceotodaymagazine.com/2018/04/is-data-the-new-gold/
@@ -28,6 +29,5 @@ Source: (Tom Kyte, Oracle)
 > • Not only classical data-intensive companies like Google or Facebook
 > • Increasing interest e.g. in insurance, health care, automotive, …
 > • Connected cars, Smart Home, Tailor-made insurances, etc
->
 
 Source: (Lecture @DHBW: Data Warehouse, 01 Introduction & Motivation, Andreas Buckenhofer, Seite 18)
