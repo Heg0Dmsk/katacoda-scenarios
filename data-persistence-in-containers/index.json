@@ -1,6 +1,6 @@
 {
   "title": "Persisting data inside Containers",
-  "description": "Data inside containers is ephemeral. Therefore it is crucial to pesist data to prevent loss",
+  "description": "Data inside containers is ephemeral. Therefore it is crucial to persist the data to prevent loss. In this Katacoda we will take a look at different options to persist data in Docker and Kubernetes",
   "difficulty": "Intermediate",
   "time": "15",
   "details": {
@@ -27,17 +27,12 @@
         "text": "docker-bind-mounts.md"
       },
       {
-        "title": "K8S - Pesisting data",
+        "title": "Persisting data inside Kubernetes",
         "text": "k8s-persisting-data.md"
       },
       {
-        "title": "K8S - Deploying PostgreSQL using a persistent volume (claim)",
+        "title": "Deploying PostgreSQL using a persistent volume (claim)",
         "text": "k8s-pvc.md"
-      },
-      {
-        "title": "K8S - Testing PostgreSQL",
-        "text": "k8s-testing-postgres.md",
-        "courseData": "port-forward-postgres-service.sh"
       },
       {
         "title": "Summary",

@@ -1,4 +1,4 @@
-In the following we will delplyo PostgreSQl to Kubernetes using a persistent volumen claim as the storage provider.
+In the following we will deploy PostgreSQl to Kubernetes using a manual persistent volume and requesting access to it with a persistent volume claim.
 
 ## Persistent volume
 
@@ -53,6 +53,8 @@ Like before, we need to copy the Kubernetes resource to the editor and apply it 
 
 ## Check if the persistent volume claim is connected to the persistent volume
 
+In order to check if our persistent volume claim was successful, we can list all persistent volume claims and their according persistent volumes using the next command.
+
 `kubectl get pvc`{{execute}}
 
 ## Deploying PostgreSQL using helm
@@ -63,5 +65,3 @@ To simplify the installation process, we will use a predefined helm charts to cr
   `helm repo add bitnami https://charts.bitnami.com/bitnami`{{execute}}
 2. We install postgres using the previous created, specified persistence volume claim
   `helm install katacoda bitnami/postgresql --set persistence.existingClaim=postgres-persistent-volume-claim --set volumePermissions.enabled=true`{{execute}}
-3. Getting the PostgreSQL password
-   `export POSTGRES_PASSWORD=$(kubectl get secret --namespace default katacoda-postgresql -o jsonpath="{.data.postgresql-password}" | base64 --decode)`{{execute}}
