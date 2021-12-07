@@ -1,5 +1,3 @@
-[![](http://shields.katacoda.com/katacoda/heg0dmsk/count.svg?style=for-the-badge)](https://www.katacoda.com/heg0dmsk)
-
 # Interactive Katacoda Scenarios
 
 ## Katacoda Profile
